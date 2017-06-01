@@ -5,10 +5,14 @@
   @include grid-media($grid-desktop){
     @include grid-column(2);
     @include grid-push(1);
+    h1{
+      text-align: center;
+    }
   }
   @include grid-media($grid-mobile){
     @include grid-column(1);
   }
+
 }
 .worklog__footer{
   text-align: center;
