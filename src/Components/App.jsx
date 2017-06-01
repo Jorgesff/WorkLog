@@ -57,6 +57,7 @@ class App extends Component {
         <div className="worklog__main">
           <h1>WorkLog</h1>
           <WorkForm onChangeWorkForm={this.handleWorkForm} />
+          <hr/>
           <WorkTable onTableRemove={this.handleRemove} data={this.state.data}/>
           <div className="worklog__footer">
             <h2>{this.state.hours} hours of exercise</h2>

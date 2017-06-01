@@ -1,5 +1,9 @@
 .worklog{
   @include grid-container;
+  hr{
+    width: 90%;
+    border: 1px solid $light-gray;
+  }
 }
 .worklog__main {
   @include grid-media($grid-desktop){
@@ -12,7 +16,6 @@
   @include grid-media($grid-mobile){
     @include grid-column(1);
   }
-
 }
 .worklog__footer{
   text-align: center;
