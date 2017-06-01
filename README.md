@@ -21,7 +21,7 @@ Primeiro baixe o repositorio remoto na sua maquina
    
   Instale as dependencias
 
-    $ cd worklog && npm install
+    $ cd Worklog && npm install
  
 Para conseguir executar o projeto entre com o comando
  
