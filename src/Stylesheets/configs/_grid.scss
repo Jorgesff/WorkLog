@@ -1,0 +1,11 @@
+$grid-desktop: (
+  columns: 4,
+  gutter: 10px,
+  media: "(min-width: 768px)"
+);
+
+$grid-mobile: (
+  columns: 1,
+  gutter: 5px,
+  media: "(max-width: 767px)"
+);

@@ -1,0 +1,17 @@
+.work-form
+  @include grid-container
+  @include grid-media($grid-desktop)
+    text-align: center
+  @include grid-media($grid-mobile)
+    text-align: left
+.work-form--right
+  @include grid-media($grid-desktop)
+    @include grid-column(2)
+  @include grid-media($grid-mobile)
+    @include grid-column(1)
+    margin-top: 10px
+.work-form--left
+  @include grid-media($grid-desktop)
+    @include grid-column(2)
+  @include grid-media($grid-mobile)
+    @include grid-column(1)

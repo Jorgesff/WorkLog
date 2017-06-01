@@ -1,0 +1,7 @@
+[ignore]
+
+[include]
+/src/Components/*.js
+[libs]
+
+[options]

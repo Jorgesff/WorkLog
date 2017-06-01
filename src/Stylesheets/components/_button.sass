@@ -1,0 +1,23 @@
+.button--submit
+  height: 25px
+  background-color: $dark-gray
+  border: none
+  border-radius: 3px
+  float: right
+  box-shadow: 1px 1px 3px 2px rgb(47, 47, 47)
+  &:active
+    border: none
+    background-color: darken($dark-gray, 5%)
+  &:focus
+    border: none
+
+.button--delete
+  height: 26px
+  background-color: $red
+  border-radius: 5px
+  color: $white
+  border: none
+  &:hover
+    background-color: darken($red,5%)
+  &:active
+    background-color: darken($red,10%)
